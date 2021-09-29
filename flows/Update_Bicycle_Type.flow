@@ -26,7 +26,7 @@
             <connector>
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
-            <label>Update bicycle</label>
+            <label>Update Type</label>
         </rules>
     </decisions>
     <formulas>
