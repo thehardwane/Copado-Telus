@@ -6,4 +6,11 @@ private class AccountOperationsTest {
         acc = AccountOperations.setDefaultDescription(acc);
         System.assertEquals('Default description', acc.Description);
     }
+    @isTest static void setDefaultDescriptionelse(){
+        Account acc = new Account(Name = 'My Test Account');
+        insert acc;
+        acc = AccountOperations.setDefaultDescription(acc);
+        
+    }
+    
 }
