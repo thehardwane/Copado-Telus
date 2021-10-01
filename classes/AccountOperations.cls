@@ -7,6 +7,7 @@ public class AccountOperations {
         // Avoid SOQL inside loops
         for (Integer i = 0; i < 10; i++) {
 	    List<Account> accounts = [SELECT Id FROM Account];
+           // System.debug('Hi');
 	}
         
         // Avoid DML Statements inside loops
