@@ -3,11 +3,6 @@
     <types>
         <members>Account.Account_Type__c</members>
         <name>CustomField</name>
-
-        <members>AccountOperations</members>
-        <members>AccountOperationsTest</members>
-        <name>ApexClass</name>
-
     </types>
     <version>52.0</version>
 </Package>
