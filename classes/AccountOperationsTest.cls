@@ -4,15 +4,15 @@ private class AccountOperationsTest {
         Account acc = new Account(Name = 'My Test Account',Description='Default description');
         insert acc;
         acc = AccountOperations.setDefaultDescription(acc);
-        System.assertEquals('Default description', acc.Description);
+        System.assertEquals('Default description', acc.Description,'Pass');
     }
  
     @isTest static void setDefaultDescriptionelse(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
-        System.debug('Hi');
+        
         acc = AccountOperations.setDefaultDescription(acc);
-        System.assertEquals('My Test Account', acc.Name);
+        System.assertEquals('My Test Account', acc.Name,'Pass');
     }
     
 }
