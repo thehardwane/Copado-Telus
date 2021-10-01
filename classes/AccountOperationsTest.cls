@@ -9,7 +9,9 @@ private class AccountOperationsTest {
     @isTest static void setDefaultDescriptionelse(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
+        System.debug('Hi');
         acc = AccountOperations.setDefaultDescription(acc);
+        System.assertEquals('My Test Account', acc.Name);
         
     }
     
